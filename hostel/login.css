@@ -1,0 +1,241 @@
+body{
+  background-color: white;
+  font-family:Helvetica;
+}
+
+#php_container{
+  display:none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#upper_container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  position: absolute;
+  color:white;
+}
+
+#login_box{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:300px;
+  height: 230px;
+  background-color: #5b5b5b;
+  padding: 5px;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+#login_heading{
+  opacity: 0.8;
+  position: absolute;
+  top: 20px;
+  font-size: 20px;
+}
+
+div.login_container{
+  color:black;
+  position: absolute;
+  display: flex;
+  height: 40px;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+  background-color: #f7f5f9;
+}
+
+#user_container{
+  top: 65px;
+}
+
+#pswd_container{
+  top: 115px;
+}
+
+div.login_text{
+  position: absolute;
+  left: 5px;
+  font-size: 15px;
+}
+
+div.login_field{
+  padding: 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4F4F4F;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+  width: 130px;
+  height: 20px;
+  font-size: 15px;
+  background-color: #e8e8e8;
+}
+
+#submit_button{
+  color:black;
+  cursor: pointer;
+  opacity: 0.8;
+  position: absolute;
+  top: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 75px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 10%;
+  border-style:solid;
+  border-width:1px;
+  border-color:#00000091;
+}
+
+#submit_button:hover{
+  opacity: 1.0 !important;
+}
+
+#pwd_data{
+
+}
+
+#user_field{
+}
+
+#filter-hostel{
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: block;
+}
+
+#overlay{
+  z-index: 7;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  top: 0px;
+  left: 0px;
+}
+
+#dialog-box{
+  display: none;
+  width: 200px;
+  height: 100px;
+  position: fixed;
+  top: 400px;
+  left: 50%;
+  margin-left: -100px;
+  background-color: white;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.9);
+  padding: 5px;
+  z-index: 8;
+  color: black;
+}
+
+.dialog-text{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.dialog-continue{
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+table {
+	margin: auto;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+	font-size: 12px;
+}
+
+h1 {
+	margin: 25px auto 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 32px;
+  margin-bottom: 20px;
+}
+
+table td {
+	transition: all .5s;
+}
+
+.title{
+  font-size: 26px;
+}
+
+/* Table */
+.data-table {
+	border-collapse: collapse;
+	font-size: 14px;
+	min-width: 537px;
+}
+
+.data-table th,
+.data-table td {
+	border: 1px solid #e1edff;
+	padding: 7px 17px;
+}
+.data-table caption {
+	margin: 7px;
+}
+
+/* Table Header */
+.data-table thead th {
+	background-color: #508abb;
+	color: #FFFFFF;
+	border-color: #6ea1cc !important;
+	text-transform: uppercase;
+}
+
+/* Table Body */
+.data-table tbody td {
+	color: #353535;
+}
+.data-table tbody td:first-child,
+.data-table tbody td:nth-child(4),
+.data-table tbody td:last-child {
+	text-align: right;
+}
+
+.data-table tbody tr:nth-child(odd) td {
+	background-color: #9a9a9a;
+}
+
+.data-table tbody tr:nth-child(even) td {
+	background-color: #cdcdcd;
+}
+
+.data-table tbody tr:hover td {
+	background-color: #ffffa2;
+	border-color: #ffff0f;
+}
+
+/* Table Footer */
+.data-table tfoot th {
+	background-color: #e5f5ff;
+	text-align: right;
+}
+.data-table tfoot th:first-child {
+	text-align: left;
+}
+.data-table tbody td:empty
+{
+	background-color: #ffcccc;
+}
