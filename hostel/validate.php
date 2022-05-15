@@ -1,13 +1,13 @@
 
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "hostel_allotment";
+$db_host = 'localhost'; // Server Name
+$db_user = 'root'; // Username
+$db_pass = ''; // Password
+$db_name = 'hostel_allotment'; // Database Name
 
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

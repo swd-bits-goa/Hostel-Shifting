@@ -13,11 +13,11 @@
       <div id = "login_heading">Hostel Allotment</div>
       <div class = "login_container" id = user_container>
         <div class = "login_text" id = "user_text">ID:</div>
-        <div class = "login_field" id = "user_field" contenteditable="true" spellcheck="false"></div>
+        <div class = "login_field" id = "user_field" spellcheck="false"></div>
       </div>
       <div class = "login_container" id = pswd_container>
         <div class = "login_text" id = "pswd_text">Password:</div>
-        <div class = "login_field" id = "pwd_data" contenteditable="true" spellcheck="false" ></div>
+        <div class = "login_field" id = "pwd_data" spellcheck="false" ></div>
       </div>
       <div id = "submit_button">Login</div>
     </div>
