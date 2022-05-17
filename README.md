@@ -3,6 +3,7 @@
 
 ## Setup 
 1. To setup move the hostel folder to lampp/htdocs
+`cp hostel/* /opt/lampp/htdocs`
 2. To enable phpmyadmin
 `cd /opt/lampp/etc/extra`
 4. Edit httpd-xampp.conf to the following

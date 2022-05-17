@@ -32,6 +32,7 @@ body{
   background-color: #5b5b5b;
   padding: 5px;
   box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
 #login_heading{
@@ -238,4 +239,18 @@ table td {
 .data-table tbody td:empty
 {
 	background-color: #ffcccc;
+}
+
+
+.message{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:300px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 5px 3px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto;
 }
